@@ -35,12 +35,6 @@ The dataset is imbalanced, with significantly more non-churned customers than ch
 
 ---
 
-## Project Structure
-
-
-
----
-
 ## Models Used
 
 - Logistic Regression (baseline, interpretable)
@@ -70,6 +64,24 @@ Recall and AUC are emphasized because missing churned customers is costly from a
 
 ---
 
+## Visualizations
+
+### Feature Correlations
+![Correlation Heatmap](figures/correlation.png)
+
+### Target Distribution
+![Churn Value Counts](figures/value_counts.png)
+
+---
+
+## Model Results
+
+The full evaluation results are available here:
+
+- [View results.csv](results.csv)
+
+---
+
 ## Limitations
 
 - The dataset does not include behavioral data such as customer support interactions or complaints.
@@ -94,10 +106,10 @@ Recall and AUC are emphasized because missing churned customers is costly from a
 2. Install required dependencies.
 3. Open `main.ipynb` and run all cells.
 
+---
 
-
-
-Author
-
-Aymane El Mandili
+Author  
+**Aymane El Mandili**  
 Computer Science
+
+
